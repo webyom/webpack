@@ -3436,6 +3436,7 @@ declare abstract class JavascriptParser extends Parser {
 	walkTemplateLiteral(expression?: any): void;
 	walkTaggedTemplateExpression(expression?: any): void;
 	walkClassExpression(expression?: any): void;
+	walkChainExpression(expression: ChainExpression): void;
 	walkImportExpression(expression?: any): void;
 	walkCallExpression(expression?: any, args?: any): void;
 	walkMemberExpression(expression?: any): void;
